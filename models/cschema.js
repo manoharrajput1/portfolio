@@ -1,4 +1,4 @@
-import {Schema,mongoose,Model} from 'mongoose'
+import {Schema,mongoose} from 'mongoose'
 
 const Cschema = new Schema({
     username : {
@@ -20,6 +20,6 @@ const Cschema = new Schema({
 })
 
 
-const ContactSchema = mongoose.models.lonkas || Model('lonkas',Cschema)
+const ContactSchema = mongoose.models.lonkas || mongoose.model('lonkas',Cschema)
 
 export default ContactSchema
