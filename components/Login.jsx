@@ -14,7 +14,7 @@ const Login = () => {
             <div className='flex m-2'>
                 <Link href='/about' className='px-2 my-1'>About </Link>
                 <Link href='/contact' className='px-2 my-1'>Contact </Link>
-                <button className='px-2' onClick={() => signOut({ callbackUrl: "https://portfolio-silk-one-23.vercel.app" })} > Signout </button>
+                <button className='px-2' onClick={() => signOut({ callbackUrl: "/" })} > Signout </button>
             </div>
             </section>
 
