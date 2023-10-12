@@ -22,7 +22,7 @@ const Contact = () => {
         desc: user.desc
       })
     })
-      if(response.ok){
+      if(response){
         router.push('/')
       }
     }
