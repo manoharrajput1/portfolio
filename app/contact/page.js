@@ -20,8 +20,8 @@ const Contact = () => {
         desc: user.desc
       })
     })
-    if (response) {
-      router.push('https://portfolio-silk-one-23.vercel.app')  
+    if(response) {
+      router.push('/')  
     }
   }
 
