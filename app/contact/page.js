@@ -11,12 +11,11 @@ const Contact = () => {
     setUser({ ...user, [name]: value })
   }
   const sendData = async function () {
-    const response = await fetch('https://portfolio-silk-one-23.vercel.app/api/ledata', {
+    const response = await fetch('/api/ledata', {
       method: 'POST',
       headers: {
         'Content-Type':'application/json'
       },
-      credentials: "include",
       body: JSON.stringify({
         username: user.username,
         mobile: user.mobile,
