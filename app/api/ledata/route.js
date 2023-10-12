@@ -14,7 +14,7 @@ export async function POST(req,res){
             desc: data.desc
         })
         await nUser.save()
-        return NextResponse.redirect('/')
+        return NextResponse.redirect(new URL('/',req.url))
         
     } catch (error) {
         console.log(error, 'not working');
