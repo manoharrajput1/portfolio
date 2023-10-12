@@ -16,7 +16,7 @@ const Contact = () => {
       headers: {
         'Content-Type':'application/json'
       },
-      // credentials: "include",
+      credentials: "include",
       body: JSON.stringify({
         username: user.username,
         mobile: user.mobile,
