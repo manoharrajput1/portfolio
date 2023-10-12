@@ -2,8 +2,9 @@
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 const Contact = () => {
-  const [user, setUser] = useState({ username: '', mobile: '', email: '', desc: '' })
   const router = useRouter()
+  const [user, setUser] = useState({ username: '', mobile: '', email: '', desc: '' })
+  
 
   const setUserData = (e) => {
     e.preventDefault()
