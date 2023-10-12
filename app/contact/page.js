@@ -22,6 +22,9 @@ const Contact = () => {
         desc: user.desc
       })
     })
+      if(response.ok){
+        router.push('/')
+      }
     }
     catch(error){
       console.log(error,'anha')
