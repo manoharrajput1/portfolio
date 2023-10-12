@@ -14,7 +14,7 @@ export async function POST(req,res){
             desc: data.desc
         })
         await nUser.save()
-        return res.json({ message:'submitted'})
+        return NextResponse.redirect('/')
         
     } catch (error) {
         console.log(error, 'not working');
