@@ -11,6 +11,8 @@ const Contact = () => {
     setUser({ ...user, [name]: value })
   }
   const sendData = async function () {
+
+    try{
     const response = await fetch('https://portfolio-silk-one-23.vercel.app/api/ledata', {
       method: 'POST',
       body: JSON.stringify({
@@ -20,6 +22,10 @@ const Contact = () => {
         desc: user.desc
       })
     })
+    }
+    catch(error){
+      console.log(error,'anha')
+    }
 
   }
 
