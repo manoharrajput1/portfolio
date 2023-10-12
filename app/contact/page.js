@@ -13,10 +13,6 @@ const Contact = () => {
   const sendData = async function () {
     const response = await fetch('/api/ledata', {
       method: 'POST',
-      headers: {
-        "Content-Type":"application/json",
-        Accept: "application/json"
-      },
       body: JSON.stringify({
         username: user.username,
         mobile: user.mobile,
@@ -24,7 +20,10 @@ const Contact = () => {
         desc: user.desc
       })
     })
+
+    
     const result = await response.json()
+    console.log(result)
     if(result) {
       router.push('/')  
     }
