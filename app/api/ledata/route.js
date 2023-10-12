@@ -14,7 +14,7 @@ export async function POST(req,res){
             desc: data.desc
         })
         await nUser.save()
-        return new Response(JSON.stringify(nUser))
+        return NextResponse.json({status: 200, message:'subbmited'})
         
     } catch (error) {
         console.log(error, 'not working');
