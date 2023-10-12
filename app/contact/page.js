@@ -21,12 +21,6 @@ const Contact = () => {
       })
     })
 
-    
-    const result = await response.json()
-    console.log(result)
-    if(result) {
-      router.push('/')  
-    }
   }
 
   return (
