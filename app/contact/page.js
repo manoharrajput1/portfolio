@@ -21,7 +21,7 @@ const Contact = () => {
       })
     })
     if (response.ok) {
-      router.push('/')  
+      router.push('https://portfolio-silk-one-23.vercel.app')  
     }
   }
 
