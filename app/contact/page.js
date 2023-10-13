@@ -7,7 +7,6 @@ const Contact = () => {
   
 
   const setUserData = (e) => {
-    e.preventDefault()
     const { name, value } = e.target
     setUser({ ...user, [name]: value })
   }
