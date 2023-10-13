@@ -11,23 +11,23 @@ const Contact = () => {
     const { name, value } = e.target
     setUser({ ...user, [name]: value })
   }
-  const sendData = async function () {
-
+  const sendData = async function (e) {
+    e.preventDefault()
     try{
-    const response = await fetch('/api/ledata', {
-      method: 'POST',
-      body: JSON.stringify({
-        username: user.username,
-        mobile: user.mobile,
-        email: user.email,
-        desc: user.desc
+      const response = await fetch('/api/ledata', {
+        method: 'POST',
+        body: JSON.stringify({
+          username: user.username,
+          mobile: user.mobile,
+          email: user.email,
+          desc: user.desc
+        })
       })
-    })
      
-    const result = await response.json()
-    console.log(result);
-    if(result) {
-      router.push('/')  
+      const result = await response.json()
+      console.log(result);
+      if(result) {
+        router.push('/')  
     }
       
     }
@@ -38,7 +38,7 @@ const Contact = () => {
   }
 
   return (
-    <form method='post' className= ' flex flex-col items-center m-2'>
+    <form className= ' flex flex-col items-center m-2'>
       <input className='m-1 text-center rounded-lg placeholder-white bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500' type='text' name='username' value={user.username} onChange={setUserData} placeholder='Username' required />
       <input className='m-1 text-center rounded-lg placeholder-white bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500'  type='number' name='mobile' value={user.mobile} onChange={setUserData} placeholder='Contact Number'required />
       <input className='m-1 text-center rounded-lg placeholder-white bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500'  type='email' name='email' value={user.email} onChange={setUserData} placeholder='Email Address' required/>
