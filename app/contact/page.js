@@ -4,8 +4,6 @@ import { useState } from 'react'
 const Contact = () => {
   const router = useRouter()
   const [user, setUser] = useState({ username: '', mobile: '', email: '', desc: '' })
-  
-
   const setUserData = (e) => {
     const { name, value } = e.target
     setUser({ ...user, [name]: value })
