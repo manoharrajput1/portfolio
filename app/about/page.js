@@ -7,7 +7,7 @@ const About = () => {
         <>
             <section className="flex justify-center gap-x-5 items-center flex-wrap ">
                 <Image
-                    className=" hover:shadow-xl hover:shadow-slate rounded-full transition ease-linear delay-200 hover:-translate-y-2 hover:-translate-x-2"
+                    className=" hover:shadow-xl hover:shadow-slate-950 rounded-full transition ease-linear delay-200 hover:-translate-y-2 hover:-translate-x-2"
                     src="/static/images/mypic.jpg"
                     width={300}
                     height={300}
