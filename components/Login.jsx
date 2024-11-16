@@ -7,7 +7,7 @@ const Login = () => {
     const { data: session } = useSession()
     if (session && session.user) {
         return (
-            <section className='flex justify-between bg-dark'>
+            <section className='flex justify-between'>
             <Link href='/' className='m-2'>
                 Jhalar
             </Link>
@@ -21,7 +21,7 @@ const Login = () => {
         )
     }
     return (
-        <div className='flex justify-end bg-dark m-2'>
+        <div className='flex justify-end m-2'>
             <button onClick={() => signIn('google')} > Signin </button>
         </div>
     )
