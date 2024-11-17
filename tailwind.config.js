@@ -23,7 +23,7 @@ module.exports = {
       metal: '#565584',
       tahiti': '#3ab7bf',
       silver: '#ecebff',
-      bermuda: '#78dcca',
+      bermuda: '#78dcca'
     },
   },
   plugins: [],
