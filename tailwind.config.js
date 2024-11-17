@@ -22,6 +22,7 @@ module.exports = {
       'metal': '#565584',
       blue: '#2563eb',
       indigo: '#6366f1',
+      pink: '#ec4899',
       'tahiti': '#3ab7bf',
       'silver': '#ecebff',
       'bubble-gum': '#ff77e9',
