@@ -35,6 +35,7 @@ const Contact = () => {
   }
 
   return (
+    <>
     <div className= m-1 text-blue> Contact Us </div>
     <form className= 'flex flex-col items-center m-2'>
       <input className='m-1 placeholder-gray text-blue text-center rounded-lg bg-gradient-to-r from-indigo via-purple to-pink' type='text' name='username' value={user.username} onChange={setUserData} placeholder='Username' required />
@@ -43,6 +44,7 @@ const Contact = () => {
       <textarea row='5' className='m-1 placeholder-gray text-blue text-center rounded-lg bg-gradient-to-r from-indigo via-purple to-pink'  type='text' name='desc' value={user.desc} onChange={setUserData} placeholder='Describe Issue' required/>
       <button className='m-1 placeholder-gray text-blue p-1 w-100 text-center rounded-lg text-white bg-gradient-to-r from-indigo via-purple to-pink' onClick={sendData}  type='submit'>Submit</button>
     </form>
+    </>
   )
 }
 
