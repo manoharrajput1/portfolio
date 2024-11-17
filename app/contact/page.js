@@ -36,6 +36,7 @@ const Contact = () => {
 
   return (
     <>
+    <div> Contact Us</div>
     <form className= 'flex flex-col items-center m-2'>
       <input className='m-1 placeholder-gray text-purple text-center rounded-lg bg-gradient-to-r from-indigo via-purple to-pink' type='text' name='username' value={user.username} onChange={setUserData} placeholder='Username' required />
       <input className='m-1 placeholder-gray text-purple text-center rounded-lg bg-gradient-to-r from-indigo via-purple to-pink'  type='number' name='mobile' value={user.mobile} onChange={setUserData} placeholder='Contact Number'required />
