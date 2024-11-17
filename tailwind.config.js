@@ -21,6 +21,7 @@ module.exports = {
       'midnight': '#121063',
       'metal': '#565584',
       blue: '#2563eb',
+      indigo: '#6366f1',
       'tahiti': '#3ab7bf',
       'silver': '#ecebff',
       'bubble-gum': '#ff77e9',
