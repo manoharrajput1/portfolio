@@ -44,7 +44,7 @@ const About = () => {
                             target="_blank"
                         >
                             {" "}
-                            Ecommerce Website{" "}
+                            Ecommerce Websit{" "}
                         </a>
                     </div>
                 </div>
