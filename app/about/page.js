@@ -31,7 +31,7 @@ const About = () => {
                         </span>{" "}
                         <a
                             className="text-green"
-                            href="https://portfolio-silk-one-23.vercel.app"
+                            href="https://portfolio-nine-iota-78.vercel.app"
                             target="_blank"
                         >
                             {" "}
