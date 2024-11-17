@@ -35,16 +35,15 @@ const Contact = () => {
   }
 
   return (
-    <>
-    <div className= 'm-1 text-purple'> Contact Us </div>
+    
     <form className= 'flex flex-col items-center m-2'>
       <input className='m-1 placeholder-gray text-purple text-center rounded-lg bg-gradient-to-r from-indigo via-purple to-pink' type='text' name='username' value={user.username} onChange={setUserData} placeholder='Username' required />
       <input className='m-1 placeholder-gray text-purple text-center rounded-lg bg-gradient-to-r from-indigo via-purple to-pink'  type='number' name='mobile' value={user.mobile} onChange={setUserData} placeholder='Contact Number'required />
       <input className='m-1 placeholder-gray text-purple text-center rounded-lg bg-gradient-to-r from-indigo via-purple to-pink'  type='email' name='email' value={user.email} onChange={setUserData} placeholder='Email Address' required/>
       <textarea row='5' className='m-1 placeholder-gray text-purple text-center rounded-lg bg-gradient-to-r from-indigo via-purple to-pink'  type='text' name='desc' value={user.desc} onChange={setUserData} placeholder='Describe Issue' required/>
-      <button className='m-1 text-midnight p-1 w-100 text-center rounded-lg bg-gradient-to-r from-indigo via-purple to-pink' onClick={sendData}  type='submit'>Submit</button>
+      <button className='m-1 text-purple p-1 w-100 text-center rounded-lg bg-gradient-to-r from-indigo via-purple to-pink' onClick={sendData}  type='submit'>Submit</button>
     </form>
-    </>
+    
   )
 }
 
