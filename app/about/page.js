@@ -16,25 +16,24 @@ const About = () => {
                     <div className="text-rose font-bold"> Manohar Singh </div>
                     <br />
                     <div>
-                        {" "}
                         <span className="text-blue-600 font-bold">
                             Skills :
-                        </span>{" "}
+                        </span>
                         Html, JavaScript, Css ,Mysql, MongoDB, Python, NextJs,
-                        Django{" "}
+                        Django
                     </div>
                     <br />
                     <div>
-                        {" "}
+                        
                         <span className="text-blue-600 font-bold">
                             Projects:
-                        </span>{" "}
+                        </span>
                         <a
                             className="text-green"
                             href="https://portfolio-nine-iota-78.vercel.app"
                             target="_blank"
                         >
-                            {" "}
+                            
                             Personal Portfolio{" "}
                         </a>
                         ,
@@ -43,8 +42,8 @@ const About = () => {
                             href="https://manoharsignh.pythonanywhere.com"
                             target="_blank"
                         >
-                            {" "}
-                            Ecommerce Websit{" "}
+                
+                            Ecommerce Website
                         </a>
                     </div>
                 </div>
