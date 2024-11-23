@@ -15,7 +15,7 @@ const About = () => {
                 <div className="flex flex-col justify-center items-center">
                     <div className="text-rose font-bold"> Manohar Singh </div>
                     <br />
-                    <div>
+                    <div className='m-1'>
                         <span className="text-blue-600 font-bold">
                             Skills :
                         </span>
@@ -23,7 +23,7 @@ const About = () => {
                         Django
                     </div>
                     <br />
-                    <div>
+                    <div className='m-1'>
                         
                         <span className="text-blue-600 font-bold">
                             Projects:
