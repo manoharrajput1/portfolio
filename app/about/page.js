@@ -17,7 +17,7 @@ const About = () => {
                     <br />
                     <div className='m-1'>
                         <span className="text-blue-600 font-bold">
-                            Skills :
+                            Skills : 
                         </span>
                         Html, JavaScript, Css ,Mysql, MongoDB, Python, NextJs,
                         Django
@@ -26,7 +26,7 @@ const About = () => {
                     <div className='m-1'>
                         
                         <span className="text-blue-600 font-bold">
-                            Projects:
+                            Projects: 
                         </span>
                         <a
                             className="text-green"
