@@ -18,7 +18,7 @@ const About = () => {
                     <div className='m-1'>
                         <span className="text-blue-600 font-bold">
                             Skills : 
-                        </span> &nbsp
+                        </span> &nbsp;
                         Html, JavaScript, Css ,Mysql, MongoDB, Python, NextJs,
                         Django
                     </div>
@@ -27,7 +27,7 @@ const About = () => {
                         
                         <span className="text-blue-600 font-bold">
                             Projects : 
-                        </span> &nbsp
+                        </span> &nbsp;
                         <a
                             className="text-green"
                             href="https://portfolio-nine-iota-78.vercel.app"
