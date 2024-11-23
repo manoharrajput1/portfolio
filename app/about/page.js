@@ -36,7 +36,7 @@ const About = () => {
                             
                             Personal Portfolio
                         </a>
-                        ,
+                        , 
                         <a
                             className="text-green"
                             href="https://manoharsignh.pythonanywhere.com"
