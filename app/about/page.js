@@ -26,7 +26,7 @@ const About = () => {
                     <div className='m-1'>
                         
                         <span className="text-blue-600 font-bold">
-                            Projects: 
+                            Projects : 
                         </span>
                         <a
                             className="text-green"
