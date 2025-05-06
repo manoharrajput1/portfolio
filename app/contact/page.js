@@ -36,10 +36,10 @@ const Contact = () => {
 
   return (
     <form className= 'w-full mx-auto'>
-      <input className='block w-80 mx-auto text-white placeholder-white text-center rounded-lg bg-gradient-to-r from-indigo via-purple to-pink' type='text' name='username' value={user.username} onChange={setUserData} placeholder='Username' required />
-      <input className='block w-80 mx-auto text-white placeholder-white text-center rounded-lg placeholder-blue bg-gradient-to-r from-indigo via-purple to-pink'  type='number' name='mobile' value={user.mobile} onChange={setUserData} placeholder='Contact Number'required />
-      <input className='block w-80 mx-auto text-white placeholder-white text-center rounded-lg placeholder-blue bg-gradient-to-r from-indigo via-purple to-pink'  type='email' name='email' value={user.email} onChange={setUserData} placeholder='Email Address' required/>
-      <textarea row='3' className='block w-80 mx-auto text-white placeholder-white text-center rounded-lg placeholder-blue bg-gradient-to-r from-indigo via-purple to-pink'  type='text' name='desc' value={user.desc} onChange={setUserData} placeholder='Describe Issue' required/>
+      <input className='block w-80 mx-auto my-1 text-white placeholder-white text-center rounded-lg bg-gradient-to-r from-indigo via-purple to-pink' type='text' name='username' value={user.username} onChange={setUserData} placeholder='Username' required />
+      <input className='block w-80 mx-auto my-1 text-white placeholder-white text-center rounded-lg placeholder-blue bg-gradient-to-r from-indigo via-purple to-pink'  type='number' name='mobile' value={user.mobile} onChange={setUserData} placeholder='Contact Number'required />
+      <input className='block w-80 mx-auto my-1 text-white placeholder-white text-center rounded-lg placeholder-blue bg-gradient-to-r from-indigo via-purple to-pink'  type='email' name='email' value={user.email} onChange={setUserData} placeholder='Email Address' required/>
+      <textarea row='3' className='block w-80 mx-auto my-1 text-white placeholder-white text-center rounded-lg placeholder-blue bg-gradient-to-r from-indigo via-purple to-pink'  type='text' name='desc' value={user.desc} onChange={setUserData} placeholder='Describe Issue' required/>
       <button className='my-1 mx-auto py-1 text-blue w-100 text-center rounded-lg ' onClick={sendData}  type='submit'>Submit</button>
     </form>
   )
