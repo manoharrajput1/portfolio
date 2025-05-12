@@ -32,7 +32,7 @@ const About = () => {
                             className="text-green"
                             href="https://portfolio-nine-iota-78.vercel.app"
                             target="_blank"
-                        >
+                        > 
                             
                             Personal Portfolio
                         </a>
