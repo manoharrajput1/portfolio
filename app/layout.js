@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
       <head>
         <title> Web Developement </title>
         <meta name='description' content=" website about fullstack web development using latest cutting edge technologies like MEAN, MERN, Django and much more." />
-        <meta name='keywords' content="web development, website design, MEAN Stack, MERN Stack, frontend web development, backend web development, fullstack web development, html, css, javascript, nodejs, python, reactjs, angularjs, django, flask, mongodb, mysql, mongoose, postgresql, expressjs, nextjs,tailwindcss"/>
+        <meta name='keywords' content="Web Development, Website Design, MEAN Stack, MERN Stack, Frontend Web Development, Backend Web Development, Fullstack Web Development, HTML, CSS, JavaScript, NodeJS, Python, ReactJS, AngularJS, Django, Flask, Mongodb, Mysql, PostgreSQL, ExpressJS, NextJS, Tailwindcss"/>
       </head>
       <body>
         <Providers children={children}>
