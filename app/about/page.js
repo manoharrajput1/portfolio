@@ -5,7 +5,7 @@ import { SocialIcon } from "react-social-icons";
 const About = () => {
     return (
         <>
-            <section className="flex justify-center gap-x-5 items-center flex-wrap ">
+            <section className="flex justify-center gap-x-5 items-center flex-wrap bg-linear-to-r from-cyan-400 via-blue-400 to-indigo-400">
                 <Image
                     className=" hover:shadow-xl hover:shadow-slate-950 rounded-full transition ease-linear delay-200 hover:-translate-y-2 hover:-translate-x-2"
                     src="/static/images/mypic.jpg"
