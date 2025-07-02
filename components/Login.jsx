@@ -7,7 +7,7 @@ const Login = () => {
     const { data: session } = useSession()
     if (session && session.user) {
         return (
-            <section className='flex justify-between from-yellow-700'>
+            <section className='flex justify-between bg-blue-700'>
             <Link href='/' className='m-2'>
                 Jhalar
             </Link>
