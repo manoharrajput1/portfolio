@@ -7,7 +7,7 @@ const Login = () => {
     const { data: session } = useSession()
     if (session && session.user) {
         return (
-            <section className='flex justify-between from-inherit'>
+            <section className='flex justify-between bg-linear-to-r from-cyan-700 via-blue-500 to-indigo-600'>
             <Link href='/' className='m-2'>
                 Jhalar
             </Link>
