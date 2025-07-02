@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
         <meta name='description' content=" website about fullstack web development using latest cutting edge technologies like MEAN, MERN, Django and much more." />
         <meta name='keywords' content="Web Development, Website Design, MEAN Stack, MERN Stack, Frontend Web Development, Backend Web Development, Fullstack Web Development, HTML, CSS, JavaScript, NodeJS, Python, ReactJS, AngularJS, Django, Flask, Mongodb, Mysql, PostgreSQL, ExpressJS, NextJS, Tailwindcss"/>
       </head>
-      <body>
+      <body className='bg-gradient-to-r from-indigo-500'>
         <Providers children={children}>
           <Navbar />
           {children}
